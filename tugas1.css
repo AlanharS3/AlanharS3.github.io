@@ -1,0 +1,19 @@
+ul {
+    list-style:none; /*menghilangkan dot list*/
+  }
+
+a {
+    text-decoration:none; /*menghilangkan garis bawah*/
+    color: rgb(167, 153, 153); /*memberi warna hitam*/
+    font-weight:bold; /*menebalkan font menu*/
+  }
+
+li {
+    display:inline; /*membuat menu menjadi Horizontal*/    
+    padding:10px; /*ngasi jarak atas bawah kiri kanan di menu*/
+    border-left:solid 1px #000; /*ngasi border kanan menu untuk pembatas*/
+    }
+
+li:hover {
+          background-color:rgb(0, 0, 0); /*untuk ngasi effek ganti warna background pas mouse lewat*/
+         }
