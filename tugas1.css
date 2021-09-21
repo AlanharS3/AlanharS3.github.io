@@ -4,16 +4,16 @@
 
 #nav a {
     text-decoration:none; /*menghilangkan garis bawah*/
-    color: rgb(167, 153, 153); /*memberi warna hitam*/
-    font-weight:bold; /*menebalkan font menu*/
+    color: rgb(167, 153, 153);
+    font-weight:bold;
   }
 
 #nav li {
     display:inline; /*membuat menu menjadi Horizontal*/    
-    padding:10px; /*ngasi jarak atas bawah kiri kanan di menu*/
-    border-left:solid 1px #000; /*ngasi border kanan menu untuk pembatas*/
-    }
+    padding:10px; 
+    border-left:solid 1px #000; 
+    } 
 
 #nav li:hover {
-          background-color:rgb(0, 0, 0); /*untuk ngasi effek ganti warna background pas mouse lewat*/
+          background-color:rgb(0, 0, 0);
          }
